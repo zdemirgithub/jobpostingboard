@@ -1,6 +1,3 @@
-Sure! Here’s the `README.md` file presented as one complete section without breaks:
-
-```markdown
 # Job Posting Board
 
 ## Overview
@@ -81,11 +78,3 @@ The Job Posting Board is a full-stack web application built with the MERN stack 
 - `POST /api/jobs`: Post a new job.
 - `GET /api/jobs`: Retrieve all jobs.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-- Special thanks to the open-source community for their contributions to the technologies used in this project.
-```
-
-You can simply copy this text into a file named `README.md` in your project directory. This file will help others (or yourself in the future) to understand how to set up and use your application effectively. Let me know if you need any adjustments!
