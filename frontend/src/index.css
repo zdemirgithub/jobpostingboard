@@ -1,0 +1,91 @@
+/* index.css */
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif; /* Fallback font */
+    line-height: 1.6; /* Improved line spacing */
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color for better contrast */
+}
+
+/* Container */
+.container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+}
+
+/* Header Styles */
+header {
+    background: #007bff; /* Primary color for the header */
+    color: white; /* White text for contrast */
+    padding: 10px 0; /* Vertical padding */
+    text-align: center; /* Center text */
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Form Styles */
+form {
+    margin: 20px 0; /* Margin around forms */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 10px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    header {
+        font-size: 1.5em; /* Larger header font on smaller screens */
+    }
+}
